@@ -128,7 +128,7 @@ pc\_port\\build\_remix\_launcher.bat
 
 #### 6\. Add your disc and play
 
-Put your disc image at `pc\_port\\build\\gamedata\\Silent Hill (USA).bin`, as the PC port's own instructions describe. Then start the game or the Remix launcher from `pc\_port\\build`.
+Put your disc image at `pc\_port\\build\\gamedata\\Silent Hill*.bin`, as the PC port's own instructions describe. Then start the game or the Remix launcher from `pc\_port\\build`.
 
 To check that Remix loaded, look in `pc\_port\\build\\SilentHill.log` for:
 
