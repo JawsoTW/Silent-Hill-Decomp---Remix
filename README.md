@@ -108,17 +108,7 @@ Copy `Remove\_Old\_Remix\_Files.bat` into the source folder (the one that holds 
 
 #### 4\. Copy the files in
 
-Copy the **contents** of these folders from the zip onto the source folder, and overwrite when asked:
-
-|Folder|Needed?|What it is|
-|-|-|-|
-|`1\_required`|**Yes**|The Remix add-on and the game's hooks for it|
-|`4\_required\_build\_files`|**Yes**|Build files: builds Remix with the game, plus fixes for current MSYS2|
-|`2\_optional\_remix\_launcher`|Recommended|The Remix launcher (settings window)|
-|`3\_optional\_docs\_tools`|Optional|Full documentation, the data generator and the layout test|
-|`5\_psycross\_sound\_ram`|Optional|A PsyCross patch (see [Monster sounds](#monster-sounds))|
-
-Prefer git? `remix\_mode.patch` contains the same changes as folders 1–5. From the source folder, run `git apply remix\_mode.patch`.
+Copy the **contents** of these folders from the zip onto the source folder, and overwrite when asked.
 
 #### 5\. Build
 
